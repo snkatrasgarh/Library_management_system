@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Books</title>
+    <style>
+        body { background-color: rgb(247, 201, 208); }
+        h1 { color: blue; }
+        table { margin: auto; }
+    </style>
+</head>
+<body>
+    <center><h1>INFORMATION TECHNOLOGY</h1></center>
+    <table>
+        <tr><td>Text Books</td></tr>
+        <tr>
+            <td>
+                <select>
+                    <option selected>Select the book</option>
+                    <option value="C&Ds">C&Ds</option>
+                    <option value="Ads">Ads</option>
+                    <option value="Java">Java</option>
+                    <option value="Oracle">Oracle</option>
+                    <option value="MsSQLServer">MsSQLServer</option>
+                    <option value="MySql">MySql</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Quantity</td>
+            <td><input type="text" id="q"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <form method="post" action="order.html">
+                    <input type="submit" value="ok"/>
+                </form>
+            </td>
+        </tr>
+    </table>
+    <center>
+        <pre>Cost of one book is "500" + shipping "100"</pre>
+    </center>
+</body>
+</html>
